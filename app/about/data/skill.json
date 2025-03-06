@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Programming Languages & Databases",
+        "items": [
+            "Python",
+            "PostgreSQL",
+            "Firebase"
+        ]
+    },
+    {
+        "title": "Data Analytics",
+        "items": [
+            "Microsoft Office",
+            "Looker Studio",
+            "Tableau",
+            "Power BI"
+        ]
+    },
+    {
+        "title": "Web Development ",
+        "items": [
+            "Next Js",
+            "Tailwind"
+        ]
+    },
+    {
+        "title": "Development Tools",
+        "items": [
+            "Git",
+            "VSCode",
+            "Linux"
+        ]
+    }
+]

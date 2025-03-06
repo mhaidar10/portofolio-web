@@ -1,0 +1,22 @@
+[
+    {
+        "position": "Big Data Analyst Intern",
+        "company": "Kimia Farma",
+        "date": "Jan 2025 - Feb 2025",
+        "responsibilities": [
+            "Collecting, processing, and analyzing large datasets to extract actionable insights that support strategic business decisions.",
+            "Perform data preprocessing tasks, including cleaning data, handling missing values, and removing duplicates to ensure data integrity and quality.",
+            "Create data visualization dashboards to effectively present key metrics, trends, and findings for internal analysis."
+        ]
+    },
+    {
+        "position": "UI/UX Designer Intern",
+        "company": "Krakatau Information Technology",
+        "date": "Jun 2023 - Aug 2023",
+        "responsibilities": [
+            "Design and improve user interfaces (UI) and user experiences (UX) for mobile applications.",
+            "Conduct user research and usability testing to gather feedback, analyze user behavior, and improve design decisions to enhance overall user satisfaction.",
+            "Optimize designs for accessibility, responsiveness, and user-friendliness."
+        ]
+    }
+]

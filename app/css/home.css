@@ -1,0 +1,19 @@
+.bubble {
+    position: absolute;
+    animation: bubble 8s infinite;
+    filter: blur(8px);
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
