@@ -9,15 +9,16 @@ import AnimatedText from "./components/home/animated_text";
 import './css/home.css'
 import Lanyard from './components/reactbits/Lanyard/Lanyard'
 
+
 export const metadata = {
-  title: "Portofolio",
-  description: "My description",
-}
+  title: "Home Page",
+};
 
 export default function Home() {
 
   return (
     <div>
+
       <Navbar />
 
 

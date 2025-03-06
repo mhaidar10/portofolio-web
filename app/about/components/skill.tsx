@@ -1,5 +1,8 @@
+"use client"
 import React, { useEffect, useState } from 'react';
 import skillsData from '../data/skill.json'; // Adjust the path as necessary
+
+
 
 
 interface Skill {
