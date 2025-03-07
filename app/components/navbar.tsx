@@ -42,22 +42,26 @@ const Navbar = () => {
                 </div>
                 <div className="hidden md:flex flex-1 justify-center">
                     <ul className="flex space-x-6 text-lg">
-                        {
-                            [
-                                { name: "Home", path: "/" },
-                                { name: "About", path: "/about" },
-                                { name: "Projects", path: "/projects" },
-                                { name: "Contact", path: "/contact" }
-                            ].map((link) => (
-                                <li key={link.path}>
-                                    <Link
-                                        href={link.path}
-                                        className={`relative pb-1 transition-colors ${pathname === link.path ? "text-blue-600 dark:text-blue-400 after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-blue-600 dark:after:bg-blue-400" : "hover:text-gray-500 dark:hover:text-gray-300"}`}
-                                    >
-                                        {link.name}
-                                    </Link>
-                                </li>
-                            ))}
+                        {[
+                            { name: "Home", path: "/" },
+                            { name: "About", path: "/about" },
+                            { name: "Projects", path: "/projects" },
+                            { name: "Contact", path: "/contact" }
+                        ].map((link) => (
+                            <li key={link.path} className="relative group">
+                                <Link
+                                    href={link.path}
+                                    className={`relative pb-1 transition-colors ${pathname === link.path ? "text-blue-600 dark:text-blue-400" : "hover:text-gray-500 dark:hover:text-gray-300"}`}
+                                >
+                                    {link.name}
+                                    {/* Underline Animation */}
+                                    <span
+                                        className={`absolute left-0 bottom-0 w-full h-[2px] bg-blue-600 dark:bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300 
+                                        ${pathname === link.path ? "scale-x-100" : "scale-x-0"}`}
+                                    />
+                                </Link>
+                            </li>
+                        ))}
                     </ul>
                 </div>
                 <div className="flex items-center space-x-4">
