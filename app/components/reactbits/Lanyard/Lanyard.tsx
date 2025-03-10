@@ -268,8 +268,8 @@ function Band({ maxSpeed = 50, minSpeed = 0 }: BandProps) {
         </RigidBody>
       </group>
       <mesh ref={band}>
-        <meshLineGeometry />
-        <meshLineMaterial
+        <MeshLineGeometry />
+        <MeshLineMaterial
           color="white"
           depthTest={false}
           resolution={[width, height]}
