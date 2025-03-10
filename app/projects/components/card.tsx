@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from 'next/image'; // Import the Image component
 
 interface CardProps {
     title: string;
@@ -38,7 +39,7 @@ const Card: React.FC<CardProps> = ({ title, imageSrc, description, tags, badge, 
                         href={demo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="absolute top-3 right-3 bg-gradient-to-r from-blue-500 to-purple-500 dark:from-cyan-400 dark:to-indigo-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full shadow-md transition duration-300 hover:opacity-90"
+                        className="z-10 absolute top-3 right-3 bg-gradient-to-r from-blue-500 to-purple-500 dark:from-cyan-400 dark:to-indigo-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full shadow-md transition duration-300 hover:opacity-90"
                         onClick={(e) => e.stopPropagation()} // Prevent modal from opening
                     >
                         🚀 Live Demo
@@ -47,7 +48,16 @@ const Card: React.FC<CardProps> = ({ title, imageSrc, description, tags, badge, 
 
                 {/* Image */}
                 <figure className="rounded-t-2xl overflow-hidden">
-                    <img src={imageSrc[0]} alt={title} className="w-full h-40 object-cover " />
+
+                    {/* <img src={imageSrc[0]} alt={title} className="w-full h-40 object-cover " /> */}
+                    <div className="relative w-full h-[200px]">
+                        <Image
+                            src={imageSrc[currentIndex]}
+                            alt={title}
+                            fill
+                            className="object-cover object-top rounded-lg"
+                        />
+                    </div>
                 </figure>
 
                 {/* Card Content */}
@@ -99,9 +109,11 @@ const Card: React.FC<CardProps> = ({ title, imageSrc, description, tags, badge, 
                             <div className="absolute inset-0 bg-black opacity-20 rounded-lg"></div>
 
                             {/* Image */}
-                            <img
+                            <Image
                                 src={imageSrc[currentIndex]}
                                 alt={title}
+                                width={500} // Specify the width of the image
+                                height={500} // Specify the height of the image
                                 className="w-full max-h-[600px] object-contain rounded-lg"
                             />
 

@@ -5,11 +5,9 @@ import { FaGithub, FaInstagram, FaLinkedin, FaCopy, FaEnvelope, FaPhone } from "
 import Swal from "sweetalert2"; // Import SweetAlert2
 
 export default function ContactDetail() {
-    const [copied, setCopied] = useState<string | null>(null);
 
     const copyToClipboard = (text: string, type: string) => {
         navigator.clipboard.writeText(text);
-        setCopied(type);
 
         // SweetAlert2 notification
         Swal.fire({
@@ -80,7 +78,7 @@ export default function ContactDetail() {
                 <div className="flex mt-2 sm:space-x-6 space-x-2 flex-wrap justify-center">
                     {/* GitHub */}
                     <a
-                        href="https://github.com/yourgithub"
+                        href="https://github.com/mhaidar10"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-all"
@@ -91,7 +89,7 @@ export default function ContactDetail() {
 
                     {/* Instagram */}
                     <a
-                        href="https://instagram.com/yourinstagram"
+                        href="https://www.instagram.com/mhaidar.10/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-pink-500 dark:hover:text-pink-400 transition-all"
@@ -102,7 +100,7 @@ export default function ContactDetail() {
 
                     {/* LinkedIn */}
                     <a
-                        href="https://linkedin.com/in/yourlinkedin"
+                        href="https://www.linkedin.com/in/mhaidar-abdul/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-all"

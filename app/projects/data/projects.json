@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Sales Dashboard",
         "imageSrc": [
-            "images/projects-image/data-analyst/01-kimia-farma/01-kf-analysis.png"
+            "/images/projects-image/data-analyst/01-kimia-farma/01-kf-analysis.png"
         ],
         "description": "Kimia Farma Performace Analyst Dashboard 2020-2023",
         "tags": [
@@ -18,12 +18,12 @@
         "id": 2,
         "title": "Japanese Landing Page",
         "imageSrc": [
-            "images/projects-image/web-development/01-japan-landing/01-japanweb.png",
-            "images/projects-image/web-development/01-japan-landing/02-japanweb.png",
-            "images/projects-image/web-development/01-japan-landing/03-japanweb.png",
-            "images/projects-image/web-development/01-japan-landing/04-japanweb.png",
-            "images/projects-image/web-development/01-japan-landing/05-japanweb.png",
-            "images/projects-image/web-development/01-japan-landing/06-japanweb.png"
+            "/images/projects-image/web-development/01-japan-landing/01-japanweb.png",
+            "/images/projects-image/web-development/01-japan-landing/02-japanweb.png",
+            "/images/projects-image/web-development/01-japan-landing/03-japanweb.png",
+            "/images/projects-image/web-development/01-japan-landing/04-japanweb.png",
+            "/images/projects-image/web-development/01-japan-landing/05-japanweb.png",
+            "/images/projects-image/web-development/01-japan-landing/06-japanweb.png"
         ],
         "description": "Japanese Exploration Web, about destinations, tribes and culture",
         "tags": [
@@ -40,7 +40,7 @@
         "id": 3,
         "title": "Pneumonia Detection Project",
         "imageSrc": [
-            "images/projects-image/data-analyst/02-penumonia detection/01-pneumonia.png"
+            "/images/projects-image/data-analyst/02-penumonia-detection/01-pneumonia.png"
         ],
         "description": "Project Can Detect Pneumonia From Image",
         "tags": [
@@ -56,7 +56,7 @@
         "id": 4,
         "title": "Decrypt Zip Engine",
         "imageSrc": [
-            "images/projects-image/other/01-decrypt-zip/01-decryptzip-engine.png"
+            "/images/projects-image/other/01-decrypt-zip/01-decryptzip-engine.png"
         ],
         "description": "Brute force software that can finding file password using wordlist",
         "tags": [
@@ -70,7 +70,7 @@
         "id": 5,
         "title": "Encrypt File Engine",
         "imageSrc": [
-            "images/projects-image/other/02-encrypt-file/01-encryptfile-egine.png"
+            "/images/projects-image/other/02-encrypt-file/01-encryptfile-egine.png"
         ],
         "description": "Software that can be encrypt file,so that canot be open without key access",
         "tags": [

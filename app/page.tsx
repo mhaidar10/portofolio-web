@@ -1,10 +1,5 @@
 import Image from "next/image";
-import ToggleTheme from "./components/toggle_theme";
-import Link from "next/link";
 import Navbar from "./components/navbar"
-import MobileFooter from "./components/mobile_footer"
-import SparklingName from "./components/home/sparkling_name";
-import GlowingText from "./components/home/sparkling_name";
 import AnimatedText from "./components/home/animated_text";
 import './css/home.css'
 import Lanyard from './components/reactbits/Lanyard/Lanyard'
@@ -71,7 +66,7 @@ export default function Home() {
             Connect With Me
           </h1>
 
-          <div className="flex space-x-6 mt-8 hidden md:flex">
+          <div className="flex space-x-6 mt-8 md:flex">
             {/* LinkedIn Icon */}
             <a
               href="https://www.linkedin.com/in/mhaidar-abdul/"

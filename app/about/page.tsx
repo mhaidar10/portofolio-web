@@ -1,7 +1,3 @@
-
-
-import MobileFooter from "../components/mobile_footer";
-import Navbar from "../components/navbar";
 import CertificationContainer from "./components/certification";
 import EducationContainer from "./components/education";
 import ExperienceContainer from "./components/experience";

@@ -1,10 +1,9 @@
-"use client";
-
+"use client"
 import { useState } from "react";
-import MobileFooter from "../components/mobile_footer";
-import Navbar from "../components/navbar";
 import Card from "./components/card";
 import projectData from "./data/projects.json"; // 📌 Import JSON data
+import ProjectsMetadata from "./metadata/metadata";
+
 
 export default function Projects() {
     const [selectedCategory, setSelectedCategory] = useState("All");
@@ -19,6 +18,7 @@ export default function Projects() {
 
     return (
         <>
+            <ProjectsMetadata />
             <div className="min-h-screen flex flex-col items-center bg-white dark:bg-gray-900 text-black dark:text-white">
                 <h1 className="mt-3 sm:mt-10 text-lg sm:text-4xl font-bold bg-gradient-to-br sm:mb-3 from-blue-500 to-purple-500 dark:from-cyan-400 dark:to-indigo-500 bg-clip-text text-transparent">
                     My Projects
