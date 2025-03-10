@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { FaGithub, FaInstagram, FaLinkedin, FaCopy, FaEnvelope, FaPhone } from "react-icons/fa"; // Import icons
 import Swal from "sweetalert2"; // Import SweetAlert2
 
